@@ -17,6 +17,17 @@ Dự án cải tiến luồng tái tạo 3D (3D Reconstruction) dựa trên fram
 4. **Phase 1 (Object Segmentation):** Chạy luồng nhận diện và bóc tách vật thể 2D.
 5. **Phase 2 (3D Generation):** Chạy luồng dựng hình 3D (TripoSR Local).
 
+## 📂 Danh sách Notebook (Notebooks & Usage)
+
+Tùy vào mục đích thử nghiệm, bạn hãy chọn notebook tương ứng:
+
+*   **Dành cho ảnh thực tế (Recommend):** [CAST_test.ipynb](./experiments/Test_UnlimtedAPI/CAST_test.ipynb)
+    *   *Mục đích:* Nhận diện nhiều vật thể (18+) và dựng 3D từng cái một cách tự động.
+*   **Dành cho Pipeline gốc (Baseline):** [CASE_Baselien1_2.ipynb](./experiments/baseline_1/CAST_org_pipeline/CASE_Baselien1_2.ipynb)
+    *   *Mục đích:* Chạy theo quy trình chuẩn của framework CAST.
+*   **Dành cho chạy Unofficial:** [CAST_unoff.ipynb](./experiments/Test_Full/CAST_unoff.ipynb)
+    *   *Mục đích:* Các thử nghiệm mở rộng khác.
+
 > [!IMPORTANT]
 > Việc **Restart Session** sau khi cài đặt thư viện là bước không thể thiếu để tránh lỗi `ImportError` hoặc xung đột phiên bản.
 
